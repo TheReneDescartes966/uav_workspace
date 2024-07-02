@@ -32,7 +32,7 @@ while cap.isOpened():
         break
 
     # Convertir la imagen a escala de grises (opcional)
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # Detectar marcadores Aruco en la imagen actual
     marker_corners, marker_ids, rejected_candidates = detector.detectMarkers(frame)
