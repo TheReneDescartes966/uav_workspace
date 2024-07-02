@@ -10,7 +10,8 @@ if not cap.isOpened():
     exit()
 
 # Definir el diccionario Aruco y los parámetros del detector
-dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
+#dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
+dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
 parameters = cv2.aruco.DetectorParameters()
 
 # Crear el detector de marcadores Aruco
