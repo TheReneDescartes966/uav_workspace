@@ -62,7 +62,7 @@ def command_arm_drone():
 
 if __name__ == '__main__':
 
-    connection_string = '/dev/ttyUSB0'  # Cambia esto al puerto serie correcto en tu sistema
+    connection_string = '/dev/ttyACM0'  # Cambia esto al puerto serie correcto en tu sistema
     baud_rate = 57600  # La tasa de baudios puede variar; consulta la documentación de tu hardware
     #udpin:localhost:14551
     # Start a connection listening on a UDP port
